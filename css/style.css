@@ -10,22 +10,44 @@ army green: 41521F;
 
 .cover-page{
 	background-image: url(../img/portada.jpg);
-	height: 100vh;
+	height: 135vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.cover-page h1{
-	padding-top: 2em;
-	color: #fff;
-	font-weight: 900;
-	font-size: 70px;
+.navbar-collapse .navbar-nav{
+	padding-left: 120px;
+	padding-right: 120px;
+	padding-top:60px;
 }
-
-.navbar-default {
-	background: transparent;
-    color:#fff;
+#li-a-title{
+	font-size: 25px;
 }
-
+.navbar-collapse .navbar-nav>li>a{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}    
+.navbar-collapse .navbar-nav>li>a:hover{
+    color: #EAAA00;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: transparent;
+}
+#about{
+	height: 100px;
+	width: 500px;
+	display: flex;
+	align-items: flex-start;
+	color: white;
+	padding-left: 100px;
+	padding-top: 100px;
+}
+#parrafo{
+	color: white;
+	font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+}
 /* seccion two info */
 #easy-help{
 	display: flex;
