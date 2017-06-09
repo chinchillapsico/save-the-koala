@@ -2,3 +2,91 @@
 wood brown: A89F68;
 army green: 41521F;
 */
+*{
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+.welcome-section{
+	background-image: url(../img/portada.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.welcome-section h1{
+	padding-top: 2em;
+	color: #fff;
+	font-weight: 900;
+	font-size: 70px;
+}
+
+.navbar-default {
+	background: transparent;
+    color:#fff;
+}
+a{
+	color: white;
+}
+
+#easy-help{
+	display: flex;
+	align-items: flex-end;
+}
+#easy-help h2{
+	color: black;
+}
+
+#showApp{
+	color: #fff;
+	font-weight:400;
+}
+ .app{
+ 	padding: 2em 0;
+ 	color: #5A5A5A;
+ }
+ .second-section{
+ 	background-color: #fff;
+ 	padding:5em 0;
+ }
+ .title-second{
+ 	color: black;
+ }
+ .features{
+ 	padding: 0.8em;
+ }
+ .features:hover{
+ 	background-color: #F2F2F2;
+ 	cursor: pointer;
+ }
+ p{
+ 	padding: 0;
+ 	margin-bottom: 1em;
+ 	font-weight: 300;
+ 	font-size: 18px;
+ 	line-height: 28px;
+ 	color: #666;
+ 	margin-top: 1em;
+
+ }
+ .thrid-section{
+ 	background-color: #f2f2f2;
+ 	height: 100vh;
+ }
+.btn-default{
+	color: #fff;
+	background-color: #D2527F;
+	border-color: #B4215D;
+}
+.btn-default:hover{
+	background-color: #C53A6D;
+	color: #fff;
+}
+.btns{
+	padding-top: 5em;
+}
+.fourth-section{
+	background-image: url(../img/all.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
