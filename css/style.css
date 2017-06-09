@@ -4,15 +4,17 @@ army green: 41521F;
 */
 *{
 	font-family: 'Lato', sans-serif;
-	color: white;
-}
-.welcome-section{
+	}
+
+/* Cover page section; Save The Koala */
+
+.cover-page{
 	background-image: url(../img/portada.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.welcome-section h1{
+.cover-page h1{
 	padding-top: 2em;
 	color: #fff;
 	font-weight: 900;
@@ -23,10 +25,8 @@ army green: 41521F;
 	background: transparent;
     color:#fff;
 }
-a{
-	color: white;
-}
 
+/* seccion two info */
 #easy-help{
 	display: flex;
 	align-items: flex-end;
@@ -67,6 +67,7 @@ a{
  	margin-top: 1em;
 
  }
+ /* seccion three; easy help */
  .thrid-section{
  	background-color: #f2f2f2;
  	height: 100vh;
@@ -83,6 +84,7 @@ a{
 .btns{
 	padding-top: 5em;
 }
+/* seccion four HELP KOALAS */
 .fourth-section{
 	background-image: url(../img/all.jpg);
 	height: 100vh;
@@ -90,3 +92,6 @@ a{
 	background-repeat: no-repeat;
 
 }
+/* seccion five icons */
+/* Donate section */
+/* Footer section*/
